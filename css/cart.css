@@ -247,6 +247,7 @@
 
 @media screen and (width <= 768px) {
   #cart {
+    font-size: xx-small;
     margin: var(--spacing-8);
     padding-left: var(--spacing-8);
     display: flex;
@@ -255,6 +256,13 @@
     align-items: stretch;
     gap: var(--spacing-20);
     max-width: 70em;
+  }
+
+  .cart-item {
+    display: flex;
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
   }
 
   .navbar {
