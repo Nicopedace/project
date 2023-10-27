@@ -360,7 +360,7 @@ header {
 .footer__register {
   background-color: var(--dark-bg-solid);
   padding: var(--spacing-68);
-  position: absolute;
+  position: ;
   bottom: 0;
   width: 100%;
 }

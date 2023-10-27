@@ -70,10 +70,58 @@
     <main id="cart">
       <h2 class="cart__title">CARRITO DE COMPRAS</h2>
       <div class="cart-table">
-        <h3>DETALLE DEL PRODUCTO</h3>
-        <h3>CANTIDAD</h3>
-        <h3>TOTAL</h3>
+        <p>DETALLE DEL PRODUCTO</p>
+        <p>CANTIDAD</p>
+        <p>TOTAL</p>
       </div>
+
+      <section class="cart-item">
+        <div class="card-item-cart">
+          <picture class="item-img"
+          ><img src="../../img/star-wars/baby-yoda-1.webp" alt=""
+        /></picture>
+        <article class="item-info">
+          <h3 class="item__name">BABY YODA BLUEBALL</h3>
+        <p class="item__licence">STAR WARS</p>
+        <p class="item__price">$ 1799,99.</p></article></div>
+
+        <div class="cart-button">
+          <form class="item__cart" action="#" method="POST" enctype="application/x-www-form-urlencoded">
+                    <button id="subtract" class="item__quantity" type="button">-</button>
+                    <input id="quantity" class="item__input" type="text" name="quantity" placeholder="0">
+                    <button id="add" class="item__quantity" type="button">+</button></div>
+        <div class="cart-price">$3599,98</div>
+        <div class="cart-cancel"><iconify-icon icon="material-symbols:cancel-outline"></iconify-icon></div>
+      </article>
+
+    </section>
+      
+
+    <section class="cart__resume">
+      <h2 class="resume__title">RESUMEN</h2>
+
+
+        <div class="resume__info">
+      <div class="resume__elements">
+       <p>CANTIDAD DE ELEMENTOS</p>
+       <P>SUBTOTAL</P>
+       <P>ENVIO</P>
+       <H3>TOTAL</H3>
+       </div>
+       
+      <div class="resume__price">
+        <p>1</p>
+        <p>$3599.98</p>
+        <p>$0.00</p>
+        <h3>$3599.98</h3>
+       </div>
+      
+      </div>
+      
+      
+    </section>
+    <section class="pay__button"><button id="subtract"  type="button">IR A PAGAR</button></section>
+      
     </main>
     <!-- FIN DEL MAIN-->
     <!-- COMIENZA EL FOOTER-->
@@ -85,10 +133,10 @@
             <a class="navbar__link" href="../shop/shop.html">SHOP</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="./register.html">REGISTRARSE</a>
+            <a class="navbar__link" href="../admin/register.html">REGISTRARSE</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="./login.html">INGRESAR</a>
+            <a class="navbar__link" href="../admin/login.html">INGRESAR</a>
           </li>
           <li class="navbar__item">
             <a class="navbar__link" href="./contact.html">CONTACTO</a>
